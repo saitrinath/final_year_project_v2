@@ -1,0 +1,24 @@
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+inserted :  33.0
+Traceback (most recent call last):
+  File "dht11_db.py", line 14, in <module>
+    humidity, temp = Adafruit_DHT.read_retry(11, pin)
+  File "/usr/local/lib/python3.7/dist-packages/Adafruit_DHT-1.4.0-py3.7-linux-armv7l.egg/Adafruit_DHT/common.py", line 94, in read_retry
+    humidity, temperature = read(sensor, pin, platform)
+  File "/usr/local/lib/python3.7/dist-packages/Adafruit_DHT-1.4.0-py3.7-linux-armv7l.egg/Adafruit_DHT/common.py", line 81, in read
+    return platform.read(sensor, pin)
+  File "/usr/local/lib/python3.7/dist-packages/Adafruit_DHT-1.4.0-py3.7-linux-armv7l.egg/Adafruit_DHT/Raspberry_Pi_2.py", line 29, in read
+    result, humidity, temp = driver.read(sensor, int(pin))
+KeyboardInterrupt
